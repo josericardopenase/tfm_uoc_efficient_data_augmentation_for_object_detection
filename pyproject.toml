@@ -1,0 +1,44 @@
+[project]
+name = "escritorio"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.12.0",
+    "autodistill>=0.1.29",
+    "autodistill-grounded-sam>=0.1.2",
+    "diffusers==0.32.0",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "kagglehub>=1.0.0",
+    "matplotlib>=3.10.8",
+    "pillow>=12.1.1",
+    "roboflow>=1.2.13",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+    "tensorflow[and-cuda]>=2.20.0",
+    # SAM3: Sam3Model / Sam3Processor (transformers >= 5)
+    "transformers==4.37.0",
+    # PyPI: wheel con dependencias nvidia-* (cuDNN vía nvidia-cudnn-cu12; debe instalarse completo)
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "ultralytics>=8.4.14",
+    "tensorflow-datasets>=4.9.9",
+    "importlib-resources>=7.1.0",
+    "bitsandbytes>=0.49.2",
+    "attention-map-diffusers>=0.1.5",
+    "torch-summary>=1.4.5",
+    "tabulate>=0.10.0",
+    "fiftyone>=1.13.5",
+    "statsmodels>=0.14.6",
+    "supervision>=0.27.0.post1",
+]
+
+[tool.uv.sources]
+diffusers = { git = "https://github.com/huggingface/diffusers" }
+
+[tool.uv.workspace]
+members = [
+    "inpaint",
+]
