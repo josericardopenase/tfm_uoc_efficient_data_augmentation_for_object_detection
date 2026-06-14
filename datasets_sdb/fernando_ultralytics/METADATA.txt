@@ -1,0 +1,31 @@
+# DATASET METADATA
+# Auto-generado por MultiDatasetCombiner
+# Fecha: /home/josericardopenase/Escritorio
+
+## Datasets Combinados
+- obj_close_up_shot_data: 913 pares
+- obj_medium_long_shot_data: 888 pares
+- obj_train_data: 77 pares
+
+## Estructura Final
+datasets_sdb/fernando_ultralytics/
+├── images/
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── labels/
+│   ├── train/
+│   ├── val/
+│   └── test/
+├── data.yaml
+└── METADATA.txt (este archivo)
+
+## Información de Combinación
+- Total de datasets: 3
+- Semilla aleatoria: 42
+- División: train 70%, val 20%, test 10%
+
+## Para usar con Ultralytics:
+from ultralytics import YOLO
+model = YOLO('yolov8n.pt')
+model.train(data='datasets_sdb/fernando_ultralytics/data.yaml', epochs=100)

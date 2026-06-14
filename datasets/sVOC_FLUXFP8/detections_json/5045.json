@@ -1,0 +1,53 @@
+{
+  "index": 5045,
+  "dataframe_iter_index": 5045,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/5045.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "car",
+  "grounding_prompt": "car",
+  "timestamp": "2026-05-22T11:44:58.444584",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "car",
+      "yolo_class_id": 6,
+      "confidence": 0.8447003960609436,
+      "bbox_xyxy": [
+        39.18701171875,
+        266.0133056640625,
+        492.3770751953125,
+        512.2718505859375
+      ],
+      "bbox_yolo": [
+        0.4152844548225403,
+        0.6080352663993835,
+        0.7081094980239868,
+        0.3847789764404297
+      ],
+      "bbox_width_px": 453.1900634765625,
+      "bbox_height_px": 246.258544921875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "car",
+      "yolo_class_id": 6,
+      "confidence": 0.666171133518219,
+      "bbox_xyxy": [
+        480.9688720703125,
+        293.459716796875,
+        605.018798828125,
+        370.7861328125
+      ],
+      "bbox_yolo": [
+        0.8484278917312622,
+        0.5189420580863953,
+        0.1938280165195465,
+        0.12082252651453018
+      ],
+      "bbox_width_px": 124.0499267578125,
+      "bbox_height_px": 77.326416015625
+    }
+  ]
+}

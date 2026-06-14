@@ -1,0 +1,73 @@
+{
+  "index": 1601,
+  "dataframe_iter_index": 1601,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/1601.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "pedal boat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T19:50:40.631179",
+  "num_detections": 3,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "pedal boat",
+      "yolo_class_id": 7,
+      "confidence": 0.6709319949150085,
+      "bbox_xyxy": [
+        44.605712890625,
+        340.9559326171875,
+        329.73382568359375,
+        523.8396606445312
+      ],
+      "bbox_yolo": [
+        0.29245275259017944,
+        0.6756215691566467,
+        0.44551268219947815,
+        0.28575581312179565
+      ],
+      "bbox_width_px": 285.12811279296875,
+      "bbox_height_px": 182.88372802734375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "pedal boat",
+      "yolo_class_id": 7,
+      "confidence": 0.6586366891860962,
+      "bbox_xyxy": [
+        362.3888854980469,
+        318.4765625,
+        639.9173583984375,
+        564.0347900390625
+      ],
+      "bbox_yolo": [
+        0.7830517888069153,
+        0.6894620060920715,
+        0.43363824486732483,
+        0.3836847245693207
+      ],
+      "bbox_width_px": 277.5284729003906,
+      "bbox_height_px": 245.5582275390625
+    },
+    {
+      "detection_id": 2,
+      "class_name": "pedal boat",
+      "yolo_class_id": 7,
+      "confidence": 0.5161138772964478,
+      "bbox_xyxy": [
+        0.038177490234375,
+        329.9959716796875,
+        113.53604125976562,
+        485.7125244140625
+      ],
+      "bbox_yolo": [
+        0.0887298583984375,
+        0.6372722387313843,
+        0.17734041810035706,
+        0.24330711364746094
+      ],
+      "bbox_width_px": 113.49786376953125,
+      "bbox_height_px": 155.716552734375
+    }
+  ]
+}

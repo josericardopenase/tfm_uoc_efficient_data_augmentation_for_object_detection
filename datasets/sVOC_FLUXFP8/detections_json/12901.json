@@ -1,0 +1,53 @@
+{
+  "index": 12901,
+  "dataframe_iter_index": 12901,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/12901.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "sheep",
+  "grounding_prompt": "sheep",
+  "timestamp": "2026-05-22T14:50:29.733187",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "sheep",
+      "yolo_class_id": 16,
+      "confidence": 0.8811975717544556,
+      "bbox_xyxy": [
+        74.73837280273438,
+        219.94580078125,
+        294.1672668457031,
+        521.652587890625
+      ],
+      "bbox_yolo": [
+        0.2882075309753418,
+        0.5793737173080444,
+        0.3428576588630676,
+        0.4714168608188629
+      ],
+      "bbox_width_px": 219.42889404296875,
+      "bbox_height_px": 301.706787109375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "sheep",
+      "yolo_class_id": 16,
+      "confidence": 0.8775111436843872,
+      "bbox_xyxy": [
+        286.9146728515625,
+        223.13551330566406,
+        492.94921875,
+        521.761962890625
+      ],
+      "bbox_yolo": [
+        0.6092686653137207,
+        0.5819511413574219,
+        0.3219289779663086,
+        0.4666038453578949
+      ],
+      "bbox_width_px": 206.0345458984375,
+      "bbox_height_px": 298.62646484375
+    }
+  ]
+}

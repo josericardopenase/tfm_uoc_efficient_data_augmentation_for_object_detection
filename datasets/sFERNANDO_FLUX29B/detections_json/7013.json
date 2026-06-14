@@ -1,0 +1,53 @@
+{
+  "index": 7013,
+  "dataframe_iter_index": 7013,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/7013.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "cruise ship",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T21:38:01.890786",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "cruise ship",
+      "yolo_class_id": 0,
+      "confidence": 0.692211389541626,
+      "bbox_xyxy": [
+        32.24147033691406,
+        210.66165161132812,
+        303.5400390625,
+        439.6698913574219
+      ],
+      "bbox_yolo": [
+        0.2623292803764343,
+        0.5080715417861938,
+        0.42390403151512146,
+        0.357825368642807
+      ],
+      "bbox_width_px": 271.298583984375,
+      "bbox_height_px": 229.00823974609375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "cruise ship",
+      "yolo_class_id": 0,
+      "confidence": 0.6398744583129883,
+      "bbox_xyxy": [
+        331.105224609375,
+        240.93902587890625,
+        612.6510009765625,
+        421.7984619140625
+      ],
+      "bbox_yolo": [
+        0.7373095750808716,
+        0.5177636742591858,
+        0.439915269613266,
+        0.28259286284446716
+      ],
+      "bbox_width_px": 281.5457763671875,
+      "bbox_height_px": 180.85943603515625
+    }
+  ]
+}

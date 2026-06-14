@@ -1,0 +1,53 @@
+{
+  "index": 1281,
+  "dataframe_iter_index": 1281,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/1281.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "bicycle",
+  "grounding_prompt": "bicycle",
+  "timestamp": "2026-05-22T10:30:15.522031",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "bicycle",
+      "yolo_class_id": 1,
+      "confidence": 0.8819978833198547,
+      "bbox_xyxy": [
+        312.6019287109375,
+        193.75787353515625,
+        571.1715698242188,
+        532.5294189453125
+      ],
+      "bbox_yolo": [
+        0.6904480457305908,
+        0.5674119591712952,
+        0.40401506423950195,
+        0.5293305516242981
+      ],
+      "bbox_width_px": 258.56964111328125,
+      "bbox_height_px": 338.77154541015625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "bicycle",
+      "yolo_class_id": 1,
+      "confidence": 0.8617084622383118,
+      "bbox_xyxy": [
+        83.79792785644531,
+        214.95046997070312,
+        283.53997802734375,
+        542.0364990234375
+      ],
+      "bbox_yolo": [
+        0.2869827151298523,
+        0.5913960337638855,
+        0.3120969533920288,
+        0.5110719203948975
+      ],
+      "bbox_width_px": 199.74205017089844,
+      "bbox_height_px": 327.0860290527344
+    }
+  ]
+}

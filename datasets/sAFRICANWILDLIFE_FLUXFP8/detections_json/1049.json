@@ -1,0 +1,53 @@
+{
+  "index": 1049,
+  "dataframe_iter_index": 1049,
+  "image_path": "./datasets/sAFRICANWILDLIFE_FLUXFP8/images/1049.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "rhino",
+  "grounding_prompt": "rhino",
+  "timestamp": "2026-05-04T20:13:40.627501",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "rhino",
+      "yolo_class_id": 2,
+      "confidence": 0.8985981941223145,
+      "bbox_xyxy": [
+        61.61724853515625,
+        319.07110595703125,
+        330.6934814453125,
+        518.3745727539062
+      ],
+      "bbox_yolo": [
+        0.30649274587631226,
+        0.6542544364929199,
+        0.42043161392211914,
+        0.31141167879104614
+      ],
+      "bbox_width_px": 269.07623291015625,
+      "bbox_height_px": 199.303466796875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "rhino",
+      "yolo_class_id": 2,
+      "confidence": 0.8843861818313599,
+      "bbox_xyxy": [
+        350.0997009277344,
+        334.18243408203125,
+        598.4095458984375,
+        512.2581176757812
+      ],
+      "bbox_yolo": [
+        0.7410228848457336,
+        0.6612817049026489,
+        0.38798412680625916,
+        0.2782432436943054
+      ],
+      "bbox_width_px": 248.30984497070312,
+      "bbox_height_px": 178.07568359375
+    }
+  ]
+}

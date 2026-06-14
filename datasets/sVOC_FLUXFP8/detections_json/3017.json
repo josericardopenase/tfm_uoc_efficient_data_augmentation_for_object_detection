@@ -1,0 +1,53 @@
+{
+  "index": 3017,
+  "dataframe_iter_index": 3017,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/3017.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "boat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-22T11:05:12.722876",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "boat",
+      "yolo_class_id": 3,
+      "confidence": 0.8759023547172546,
+      "bbox_xyxy": [
+        56.26289367675781,
+        222.14056396484375,
+        290.35784912109375,
+        463.9263916015625
+      ],
+      "bbox_yolo": [
+        0.2707974314689636,
+        0.5359898209571838,
+        0.36577337980270386,
+        0.3777903616428375
+      ],
+      "bbox_width_px": 234.09495544433594,
+      "bbox_height_px": 241.78582763671875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "boat",
+      "yolo_class_id": 3,
+      "confidence": 0.8515551090240479,
+      "bbox_xyxy": [
+        385.91900634765625,
+        257.72222900390625,
+        595.8438110351562,
+        424.012939453125
+      ],
+      "bbox_yolo": [
+        0.7670022249221802,
+        0.5326055884361267,
+        0.3280075192451477,
+        0.25982922315597534
+      ],
+      "bbox_width_px": 209.9248046875,
+      "bbox_height_px": 166.29071044921875
+    }
+  ]
+}

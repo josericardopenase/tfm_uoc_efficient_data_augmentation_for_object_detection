@@ -1,0 +1,53 @@
+{
+  "index": 9429,
+  "dataframe_iter_index": 9429,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/9429.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "dog",
+  "grounding_prompt": "dog",
+  "timestamp": "2026-05-22T13:26:49.022362",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "dog",
+      "yolo_class_id": 11,
+      "confidence": 0.8758354187011719,
+      "bbox_xyxy": [
+        38.35736083984375,
+        249.72296142578125,
+        308.3607177734375,
+        630.430908203125
+      ],
+      "bbox_yolo": [
+        0.270873486995697,
+        0.687620222568512,
+        0.42188024520874023,
+        0.5948561429977417
+      ],
+      "bbox_width_px": 270.00335693359375,
+      "bbox_height_px": 380.70794677734375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "dog",
+      "yolo_class_id": 11,
+      "confidence": 0.8558148145675659,
+      "bbox_xyxy": [
+        305.406005859375,
+        268.5362548828125,
+        510.06085205078125,
+        634.7755126953125
+      ],
+      "bbox_yolo": [
+        0.6370834708213806,
+        0.7057123184204102,
+        0.31977319717407227,
+        0.5722488164901733
+      ],
+      "bbox_width_px": 204.65484619140625,
+      "bbox_height_px": 366.2392578125
+    }
+  ]
+}

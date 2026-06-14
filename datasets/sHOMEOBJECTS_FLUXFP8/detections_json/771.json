@@ -1,0 +1,53 @@
+{
+  "index": 771,
+  "dataframe_iter_index": 771,
+  "image_path": "./datasets/sHOMEOBJECTS_FLUXFP8/images/771.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "table",
+  "grounding_prompt": "table",
+  "timestamp": "2026-05-15T22:47:52.130616",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "table",
+      "yolo_class_id": 5,
+      "confidence": 0.4276132881641388,
+      "bbox_xyxy": [
+        552.866455078125,
+        498.9793395996094,
+        639.31640625,
+        604.0111083984375
+      ],
+      "bbox_yolo": [
+        0.9313928484916687,
+        0.861711323261261,
+        0.1350780427455902,
+        0.1641121357679367
+      ],
+      "bbox_width_px": 86.449951171875,
+      "bbox_height_px": 105.03176879882812
+    },
+    {
+      "detection_id": 1,
+      "class_name": "table",
+      "yolo_class_id": 5,
+      "confidence": 0.8594359755516052,
+      "bbox_xyxy": [
+        127.21369934082031,
+        441.2841796875,
+        505.09765625,
+        618.70556640625
+      ],
+      "bbox_yolo": [
+        0.49399322271347046,
+        0.8281170129776001,
+        0.5904437303543091,
+        0.2772209048271179
+      ],
+      "bbox_width_px": 377.88397216796875,
+      "bbox_height_px": 177.42138671875
+    }
+  ]
+}

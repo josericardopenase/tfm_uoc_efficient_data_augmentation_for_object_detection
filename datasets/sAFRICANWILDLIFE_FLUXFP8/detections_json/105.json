@@ -1,0 +1,53 @@
+{
+  "index": 105,
+  "dataframe_iter_index": 105,
+  "image_path": "./datasets/sAFRICANWILDLIFE_FLUXFP8/images/105.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "buffalo",
+  "grounding_prompt": "buffalo",
+  "timestamp": "2026-05-04T20:02:28.878110",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "buffalo",
+      "yolo_class_id": 0,
+      "confidence": 0.7671198844909668,
+      "bbox_xyxy": [
+        38.83180236816406,
+        146.56622314453125,
+        321.766357421875,
+        526.27099609375
+      ],
+      "bbox_yolo": [
+        0.28171730041503906,
+        0.5256540775299072,
+        0.44208526611328125,
+        0.5932887196540833
+      ],
+      "bbox_width_px": 282.9345703125,
+      "bbox_height_px": 379.70477294921875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "buffalo",
+      "yolo_class_id": 0,
+      "confidence": 0.8317602276802063,
+      "bbox_xyxy": [
+        261.7825927734375,
+        168.50144958496094,
+        595.7916259765625,
+        532.2801513671875
+      ],
+      "bbox_yolo": [
+        0.6699798703193665,
+        0.5474856495857239,
+        0.5218890905380249,
+        0.5684041976928711
+      ],
+      "bbox_width_px": 334.009033203125,
+      "bbox_height_px": 363.7786865234375
+    }
+  ]
+}

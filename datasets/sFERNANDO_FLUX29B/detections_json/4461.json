@@ -1,0 +1,73 @@
+{
+  "index": 4461,
+  "dataframe_iter_index": 4461,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/4461.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "speed_boat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T20:50:06.997824",
+  "num_detections": 3,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "speed_boat",
+      "yolo_class_id": 10,
+      "confidence": 0.7559616565704346,
+      "bbox_xyxy": [
+        349.4949951171875,
+        341.78662109375,
+        491.7596435546875,
+        376.2874755859375
+      ],
+      "bbox_yolo": [
+        0.6572301983833313,
+        0.5609953999519348,
+        0.22228851914405823,
+        0.05390758439898491
+      ],
+      "bbox_width_px": 142.2646484375,
+      "bbox_height_px": 34.5008544921875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "speed_boat",
+      "yolo_class_id": 10,
+      "confidence": 0.7584412097930908,
+      "bbox_xyxy": [
+        200.19984436035156,
+        343.734619140625,
+        318.7442932128906,
+        389.71600341796875
+      ],
+      "bbox_yolo": [
+        0.40542513132095337,
+        0.5730082988739014,
+        0.1852256953716278,
+        0.07184591144323349
+      ],
+      "bbox_width_px": 118.54444885253906,
+      "bbox_height_px": 45.98138427734375
+    },
+    {
+      "detection_id": 2,
+      "class_name": "speed_boat",
+      "yolo_class_id": 10,
+      "confidence": 0.35470080375671387,
+      "bbox_xyxy": [
+        431.396484375,
+        319.6687927246094,
+        451.02081298828125,
+        324.1361389160156
+      ],
+      "bbox_yolo": [
+        0.6893885135650635,
+        0.5029726028442383,
+        0.030663013458251953,
+        0.006980228237807751
+      ],
+      "bbox_width_px": 19.62432861328125,
+      "bbox_height_px": 4.46734619140625
+    }
+  ]
+}

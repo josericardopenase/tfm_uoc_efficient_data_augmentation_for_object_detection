@@ -1,0 +1,26 @@
+# YOLO Dataset - Combinado de múltiples fuentes
+# Auto-generado por MultiDatasetCombiner
+
+path: /home/josericardopenase/Escritorio/datasets/fernando_tugboats_loras(full:768)/
+train: 
+  - ../../datasets_sdb/fernando_ultralytics/images/train
+  - images/synth
+val: ../../datasets_sdb/fernando_ultralytics/images/val
+
+nc: 13
+names: {
+    0: "industrial_ship",
+    1: "military_ship",
+    2: "cruise_ship",
+    3: "passenger_ship",
+    4: "sailboat",
+    5: "tugboat",
+    6: "jetski",
+    7: "human_powered_boat",
+    8: "small_boat",
+    9: "pedal_boat",
+    10: "speed_boat",
+    11: "fishing_boat",
+    12: "other_boat",
+}
+

@@ -1,0 +1,53 @@
+{
+  "index": 3233,
+  "dataframe_iter_index": 3233,
+  "image_path": "./datasets/sHOMEOBJECTS_FLUXFP8/images/3233.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "refrigerator",
+  "grounding_prompt": "refrigerator",
+  "timestamp": "2026-05-15T23:41:59.999756",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "refrigerator",
+      "yolo_class_id": 3,
+      "confidence": 0.7535725235939026,
+      "bbox_xyxy": [
+        0.1538238525390625,
+        27.353973388671875,
+        326.64703369140625,
+        639.8402099609375
+      ],
+      "bbox_yolo": [
+        0.2553131580352783,
+        0.5212454795837402,
+        0.5101456642150879,
+        0.9570096731185913
+      ],
+      "bbox_width_px": 326.49322509765625,
+      "bbox_height_px": 612.4862060546875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "refrigerator",
+      "yolo_class_id": 3,
+      "confidence": 0.7901270985603333,
+      "bbox_xyxy": [
+        324.3386535644531,
+        0.092132568359375,
+        639.8980712890625,
+        639.9390869140625
+      ],
+      "bbox_yolo": [
+        0.7533099055290222,
+        0.5000244379043579,
+        0.4930616021156311,
+        0.9997608065605164
+      ],
+      "bbox_width_px": 315.5594177246094,
+      "bbox_height_px": 639.846923828125
+    }
+  ]
+}

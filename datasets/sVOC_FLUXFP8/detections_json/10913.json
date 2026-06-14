@@ -1,0 +1,53 @@
+{
+  "index": 10913,
+  "dataframe_iter_index": 10913,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/10913.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "motorbike",
+  "grounding_prompt": "motorbike",
+  "timestamp": "2026-05-22T14:01:37.019175",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "motorbike",
+      "yolo_class_id": 13,
+      "confidence": 0.8930506706237793,
+      "bbox_xyxy": [
+        44.28204345703125,
+        192.7532958984375,
+        299.373779296875,
+        594.59521484375
+      ],
+      "bbox_yolo": [
+        0.2684811055660248,
+        0.6151160001754761,
+        0.3985808491706848,
+        0.6278780102729797
+      ],
+      "bbox_width_px": 255.09173583984375,
+      "bbox_height_px": 401.8419189453125
+    },
+    {
+      "detection_id": 1,
+      "class_name": "motorbike",
+      "yolo_class_id": 13,
+      "confidence": 0.8826259970664978,
+      "bbox_xyxy": [
+        340.134765625,
+        193.83148193359375,
+        585.7054443359375,
+        587.5421752929688
+      ],
+      "bbox_yolo": [
+        0.7233126759529114,
+        0.6104481816291809,
+        0.38370418548583984,
+        0.6151729822158813
+      ],
+      "bbox_width_px": 245.5706787109375,
+      "bbox_height_px": 393.710693359375
+    }
+  ]
+}

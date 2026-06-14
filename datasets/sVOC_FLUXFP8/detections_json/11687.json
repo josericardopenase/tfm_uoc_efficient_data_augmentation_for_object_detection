@@ -1,0 +1,53 @@
+{
+  "index": 11687,
+  "dataframe_iter_index": 11687,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/11687.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "person",
+  "grounding_prompt": "person",
+  "timestamp": "2026-05-22T14:19:52.355980",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "person",
+      "yolo_class_id": 14,
+      "confidence": 0.8613781929016113,
+      "bbox_xyxy": [
+        101.80029296875,
+        138.9752197265625,
+        286.5209045410156,
+        639.5711669921875
+      ],
+      "bbox_yolo": [
+        0.3033759295940399,
+        0.6082393527030945,
+        0.28862595558166504,
+        0.7821811437606812
+      ],
+      "bbox_width_px": 184.72061157226562,
+      "bbox_height_px": 500.595947265625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "person",
+      "yolo_class_id": 14,
+      "confidence": 0.8448954820632935,
+      "bbox_xyxy": [
+        326.89935302734375,
+        345.99591064453125,
+        564.6499633789062,
+        639.5818481445312
+      ],
+      "bbox_yolo": [
+        0.6965228915214539,
+        0.769982635974884,
+        0.37148532271385193,
+        0.45872801542282104
+      ],
+      "bbox_width_px": 237.7506103515625,
+      "bbox_height_px": 293.5859375
+    }
+  ]
+}

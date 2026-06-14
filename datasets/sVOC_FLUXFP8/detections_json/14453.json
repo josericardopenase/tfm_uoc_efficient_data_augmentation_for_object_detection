@@ -1,0 +1,53 @@
+{
+  "index": 14453,
+  "dataframe_iter_index": 14453,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/14453.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "train",
+  "grounding_prompt": "train",
+  "timestamp": "2026-05-22T15:27:30.861949",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "train",
+      "yolo_class_id": 18,
+      "confidence": 0.8879051208496094,
+      "bbox_xyxy": [
+        133.81561279296875,
+        303.34796142578125,
+        305.73565673828125,
+        442.673095703125
+      ],
+      "bbox_yolo": [
+        0.34339943528175354,
+        0.582828938961029,
+        0.26862508058547974,
+        0.21769551932811737
+      ],
+      "bbox_width_px": 171.9200439453125,
+      "bbox_height_px": 139.32513427734375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "train",
+      "yolo_class_id": 18,
+      "confidence": 0.8760552406311035,
+      "bbox_xyxy": [
+        309.10980224609375,
+        285.37725830078125,
+        425.18841552734375,
+        443.24713134765625
+      ],
+      "bbox_yolo": [
+        0.573670506477356,
+        0.5692378282546997,
+        0.18137283623218536,
+        0.2466716766357422
+      ],
+      "bbox_width_px": 116.07861328125,
+      "bbox_height_px": 157.869873046875
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "index": 6705,
+  "dataframe_iter_index": 6705,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/6705.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "chair",
+  "grounding_prompt": "chair",
+  "timestamp": "2026-05-22T12:23:20.376055",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "chair",
+      "yolo_class_id": 8,
+      "confidence": 0.7961251139640808,
+      "bbox_xyxy": [
+        107.54844665527344,
+        337.9775085449219,
+        286.2210693359375,
+        540.2332763671875
+      ],
+      "bbox_yolo": [
+        0.3076324462890625,
+        0.6861022114753723,
+        0.2791759669780731,
+        0.31602463126182556
+      ],
+      "bbox_width_px": 178.67262268066406,
+      "bbox_height_px": 202.25576782226562
+    },
+    {
+      "detection_id": 1,
+      "class_name": "chair",
+      "yolo_class_id": 8,
+      "confidence": 0.7538284063339233,
+      "bbox_xyxy": [
+        371.4732666015625,
+        342.25042724609375,
+        543.3945922851562,
+        533.9478149414062
+      ],
+      "bbox_yolo": [
+        0.714740514755249,
+        0.6845299005508423,
+        0.2686270773410797,
+        0.2995271682739258
+      ],
+      "bbox_width_px": 171.92132568359375,
+      "bbox_height_px": 191.6973876953125
+    }
+  ]
+}

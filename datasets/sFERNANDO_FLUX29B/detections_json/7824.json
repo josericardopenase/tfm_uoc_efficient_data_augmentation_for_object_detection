@@ -1,0 +1,53 @@
+{
+  "index": 7824,
+  "dataframe_iter_index": 7824,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/7824.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "fishing boat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T21:53:14.902816",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "fishing boat",
+      "yolo_class_id": 1,
+      "confidence": 0.5434224009513855,
+      "bbox_xyxy": [
+        135.71612548828125,
+        86.9566650390625,
+        447.36639404296875,
+        541.49658203125
+      ],
+      "bbox_yolo": [
+        0.4555332064628601,
+        0.4909791052341461,
+        0.4869535565376282,
+        0.710218608379364
+      ],
+      "bbox_width_px": 311.6502685546875,
+      "bbox_height_px": 454.5399169921875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "fishing boat",
+      "yolo_class_id": 1,
+      "confidence": 0.4172939360141754,
+      "bbox_xyxy": [
+        450.86669921875,
+        418.9263610839844,
+        523.3482666015625,
+        503.7994689941406
+      ],
+      "bbox_yolo": [
+        0.7611054182052612,
+        0.7208795547485352,
+        0.11325244605541229,
+        0.13261422514915466
+      ],
+      "bbox_width_px": 72.4815673828125,
+      "bbox_height_px": 84.87310791015625
+    }
+  ]
+}

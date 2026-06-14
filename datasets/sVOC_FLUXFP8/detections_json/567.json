@@ -1,0 +1,53 @@
+{
+  "index": 567,
+  "dataframe_iter_index": 567,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/567.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "aeroplane",
+  "grounding_prompt": "aeroplane",
+  "timestamp": "2026-05-22T10:16:50.197661",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "aeroplane",
+      "yolo_class_id": 0,
+      "confidence": 0.5140295624732971,
+      "bbox_xyxy": [
+        201.37400817871094,
+        215.7221221923828,
+        354.863037109375,
+        259.9482727050781
+      ],
+      "bbox_yolo": [
+        0.43456020951271057,
+        0.37161749601364136,
+        0.23982660472393036,
+        0.06910336017608643
+      ],
+      "bbox_width_px": 153.48902893066406,
+      "bbox_height_px": 44.22615051269531
+    },
+    {
+      "detection_id": 1,
+      "class_name": "aeroplane",
+      "yolo_class_id": 0,
+      "confidence": 0.37313100695610046,
+      "bbox_xyxy": [
+        91.12123107910156,
+        305.38787841796875,
+        260.65655517578125,
+        369.34588623046875
+      ],
+      "bbox_yolo": [
+        0.27482637763023376,
+        0.5271357297897339,
+        0.26489895582199097,
+        0.09993438422679901
+      ],
+      "bbox_width_px": 169.5353240966797,
+      "bbox_height_px": 63.9580078125
+    }
+  ]
+}

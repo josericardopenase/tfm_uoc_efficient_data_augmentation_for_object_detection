@@ -1,0 +1,73 @@
+{
+  "index": 15770,
+  "dataframe_iter_index": 15770,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/15770.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "tvmonitor",
+  "grounding_prompt": "tvmonitor",
+  "timestamp": "2026-05-22T15:58:52.059876",
+  "num_detections": 3,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "tvmonitor",
+      "yolo_class_id": 19,
+      "confidence": 0.5423550605773926,
+      "bbox_xyxy": [
+        1.342559814453125,
+        118.45257568359375,
+        328.8351135253906,
+        637.678466796875
+      ],
+      "bbox_yolo": [
+        0.2579513192176819,
+        0.5907273888587952,
+        0.5117071270942688,
+        0.811290442943573
+      ],
+      "bbox_width_px": 327.4925537109375,
+      "bbox_height_px": 519.2258911132812
+    },
+    {
+      "detection_id": 1,
+      "class_name": "tvmonitor",
+      "yolo_class_id": 19,
+      "confidence": 0.41996628046035767,
+      "bbox_xyxy": [
+        298.247314453125,
+        207.13278198242188,
+        493.1729736328125,
+        531.921630859375
+      ],
+      "bbox_yolo": [
+        0.6182971000671387,
+        0.5773862600326538,
+        0.30457133054733276,
+        0.5074825882911682
+      ],
+      "bbox_width_px": 194.9256591796875,
+      "bbox_height_px": 324.7888488769531
+    },
+    {
+      "detection_id": 2,
+      "class_name": "tvmonitor",
+      "yolo_class_id": 19,
+      "confidence": 0.37385648488998413,
+      "bbox_xyxy": [
+        465.779052734375,
+        245.4546356201172,
+        600.7579345703125,
+        459.36767578125
+      ],
+      "bbox_yolo": [
+        0.833232045173645,
+        0.5506424307823181,
+        0.21090450882911682,
+        0.33423912525177
+      ],
+      "bbox_width_px": 134.9788818359375,
+      "bbox_height_px": 213.9130401611328
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "index": 8802,
+  "dataframe_iter_index": 8802,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/8802.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "human powered boat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T22:11:47.197165",
+  "num_detections": 3,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "human powered boat",
+      "yolo_class_id": 2,
+      "confidence": 0.8109907507896423,
+      "bbox_xyxy": [
+        242.97825622558594,
+        345.83685302734375,
+        385.3226318359375,
+        398.447509765625
+      ],
+      "bbox_yolo": [
+        0.49086007475852966,
+        0.5814721584320068,
+        0.2224130928516388,
+        0.08220414817333221
+      ],
+      "bbox_width_px": 142.34437561035156,
+      "bbox_height_px": 52.61065673828125
+    },
+    {
+      "detection_id": 1,
+      "class_name": "human powered boat",
+      "yolo_class_id": 2,
+      "confidence": 0.8174563646316528,
+      "bbox_xyxy": [
+        38.50060272216797,
+        345.1597900390625,
+        194.11489868164062,
+        397.105712890625
+      ],
+      "bbox_yolo": [
+        0.18173086643218994,
+        0.5798949003219604,
+        0.2431473284959793,
+        0.08116550743579865
+      ],
+      "bbox_width_px": 155.61428833007812,
+      "bbox_height_px": 51.9459228515625
+    },
+    {
+      "detection_id": 2,
+      "class_name": "human powered boat",
+      "yolo_class_id": 2,
+      "confidence": 0.794309139251709,
+      "bbox_xyxy": [
+        389.32574462890625,
+        346.3145751953125,
+        599.7468872070312,
+        403.25811767578125
+      ],
+      "bbox_yolo": [
+        0.7727130055427551,
+        0.585603654384613,
+        0.3287830352783203,
+        0.08897428214550018
+      ],
+      "bbox_width_px": 210.421142578125,
+      "bbox_height_px": 56.94354248046875
+    }
+  ]
+}

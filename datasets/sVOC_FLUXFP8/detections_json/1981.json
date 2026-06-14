@@ -1,0 +1,53 @@
+{
+  "index": 1981,
+  "dataframe_iter_index": 1981,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/1981.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "bird",
+  "grounding_prompt": "bird",
+  "timestamp": "2026-05-22T10:43:46.714625",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "bird",
+      "yolo_class_id": 2,
+      "confidence": 0.8775618076324463,
+      "bbox_xyxy": [
+        190.64767456054688,
+        364.32354736328125,
+        339.6616516113281,
+        527.4745483398438
+      ],
+      "bbox_yolo": [
+        0.4143041670322418,
+        0.6967172622680664,
+        0.2328343391418457,
+        0.25492343306541443
+      ],
+      "bbox_width_px": 149.01397705078125,
+      "bbox_height_px": 163.1510009765625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "bird",
+      "yolo_class_id": 2,
+      "confidence": 0.8860144019126892,
+      "bbox_xyxy": [
+        416.2353210449219,
+        349.7441101074219,
+        575.7452392578125,
+        504.2206115722656
+      ],
+      "bbox_yolo": [
+        0.7749848365783691,
+        0.667159914970398,
+        0.24923424422740936,
+        0.24136953055858612
+      ],
+      "bbox_width_px": 159.50991821289062,
+      "bbox_height_px": 154.47650146484375
+    }
+  ]
+}

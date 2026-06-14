@@ -1,0 +1,21 @@
+path: /home/josericardopenase/Escritorio/datasets/HOMEOBJECTS-MIX # dataset root dir
+train: 
+    - images/synth # train images (relative to 'path') 2285 images
+val:
+    - ../homeobjects-3K/images/val
+test: # test images (relative to 'path')
+
+# Classes
+names:
+  0: bed
+  1: sofa
+  2: chair
+  3: table
+  4: lamp
+  5: tv
+  6: laptop
+  7: wardrobe
+  8: window
+  9: door
+  10: potted plant
+  11: photo frame

@@ -1,0 +1,53 @@
+{
+  "index": 1113,
+  "dataframe_iter_index": 1113,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/1113.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "small boat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T19:41:22.326495",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "small boat",
+      "yolo_class_id": 9,
+      "confidence": 0.7821629047393799,
+      "bbox_xyxy": [
+        164.1361846923828,
+        294.67449951171875,
+        256.64642333984375,
+        337.702392578125
+      ],
+      "bbox_yolo": [
+        0.32873639464378357,
+        0.4940444529056549,
+        0.1445472538471222,
+        0.06723108142614365
+      ],
+      "bbox_width_px": 92.51023864746094,
+      "bbox_height_px": 43.02789306640625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "small boat",
+      "yolo_class_id": 9,
+      "confidence": 0.6664085984230042,
+      "bbox_xyxy": [
+        358.239501953125,
+        277.1962890625,
+        478.8758544921875,
+        363.26666259765625
+      ],
+      "bbox_yolo": [
+        0.6539963483810425,
+        0.5003616809844971,
+        0.18849429488182068,
+        0.13448496162891388
+      ],
+      "bbox_width_px": 120.6363525390625,
+      "bbox_height_px": 86.07037353515625
+    }
+  ]
+}

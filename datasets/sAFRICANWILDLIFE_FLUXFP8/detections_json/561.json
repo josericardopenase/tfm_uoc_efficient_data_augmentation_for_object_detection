@@ -1,0 +1,53 @@
+{
+  "index": 561,
+  "dataframe_iter_index": 561,
+  "image_path": "./datasets/sAFRICANWILDLIFE_FLUXFP8/images/561.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "elephant",
+  "grounding_prompt": "elephant",
+  "timestamp": "2026-05-04T20:07:54.713882",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "elephant",
+      "yolo_class_id": 1,
+      "confidence": 0.8927640318870544,
+      "bbox_xyxy": [
+        70.76734924316406,
+        122.46934509277344,
+        369.89715576171875,
+        504.1455078125
+      ],
+      "bbox_yolo": [
+        0.34426912665367126,
+        0.4895428717136383,
+        0.46739035844802856,
+        0.5963689684867859
+      ],
+      "bbox_width_px": 299.12982177734375,
+      "bbox_height_px": 381.6761474609375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "elephant",
+      "yolo_class_id": 1,
+      "confidence": 0.8734015822410583,
+      "bbox_xyxy": [
+        321.7820739746094,
+        203.16957092285156,
+        523.4075317382812,
+        481.444091796875
+      ],
+      "bbox_yolo": [
+        0.6603043675422668,
+        0.5348544120788574,
+        0.3150397837162018,
+        0.43480396270751953
+      ],
+      "bbox_width_px": 201.62545776367188,
+      "bbox_height_px": 278.2745361328125
+    }
+  ]
+}

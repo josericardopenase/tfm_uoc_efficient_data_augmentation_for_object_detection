@@ -1,0 +1,53 @@
+{
+  "index": 2017,
+  "dataframe_iter_index": 2017,
+  "image_path": "./datasets/sHOMEOBJECTS_FLUXFP8/images/2017.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "bed",
+  "grounding_prompt": "bed",
+  "timestamp": "2026-05-15T23:15:49.487587",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "bed",
+      "yolo_class_id": 0,
+      "confidence": 0.7113106846809387,
+      "bbox_xyxy": [
+        0.0946807861328125,
+        276.94769287109375,
+        318.97894287109375,
+        468.84942626953125
+      ],
+      "bbox_yolo": [
+        0.24927625060081482,
+        0.5826539993286133,
+        0.4982566833496094,
+        0.29984647035598755
+      ],
+      "bbox_width_px": 318.88427734375,
+      "bbox_height_px": 191.9017333984375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "bed",
+      "yolo_class_id": 0,
+      "confidence": 0.6974977850914001,
+      "bbox_xyxy": [
+        68.50027465820312,
+        292.901611328125,
+        619.7022705078125,
+        635.703369140625
+      ],
+      "bbox_yolo": [
+        0.5376582145690918,
+        0.725472629070282,
+        0.8612531423568726,
+        0.5356277227401733
+      ],
+      "bbox_width_px": 551.2020263671875,
+      "bbox_height_px": 342.8017578125
+    }
+  ]
+}

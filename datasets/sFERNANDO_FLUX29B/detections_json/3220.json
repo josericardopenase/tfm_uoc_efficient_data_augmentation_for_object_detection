@@ -1,0 +1,53 @@
+{
+  "index": 3220,
+  "dataframe_iter_index": 3220,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/3220.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "jetski",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T20:25:36.992213",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "jetski",
+      "yolo_class_id": 4,
+      "confidence": 0.6942490339279175,
+      "bbox_xyxy": [
+        146.15005493164062,
+        329.8939514160156,
+        454.2987976074219,
+        488.9999694824219
+      ],
+      "bbox_yolo": [
+        0.4691006541252136,
+        0.6397608518600464,
+        0.4814824163913727,
+        0.24860315024852753
+      ],
+      "bbox_width_px": 308.14874267578125,
+      "bbox_height_px": 159.10601806640625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "jetski",
+      "yolo_class_id": 4,
+      "confidence": 0.46839115023612976,
+      "bbox_xyxy": [
+        22.785125732421875,
+        344.2459716796875,
+        133.03353881835938,
+        390.8233642578125
+      ],
+      "bbox_yolo": [
+        0.12173333019018173,
+        0.5742729306221008,
+        0.17226314544677734,
+        0.0727771744132042
+      ],
+      "bbox_width_px": 110.2484130859375,
+      "bbox_height_px": 46.577392578125
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "index": 1993,
+  "dataframe_iter_index": 1993,
+  "image_path": "./datasets/sAFRICANWILDLIFE_FLUXFP8/images/1993.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "zebra",
+  "grounding_prompt": "zebra",
+  "timestamp": "2026-05-04T20:24:50.022631",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "zebra",
+      "yolo_class_id": 3,
+      "confidence": 0.8813755512237549,
+      "bbox_xyxy": [
+        325.84478759765625,
+        155.69976806640625,
+        488.72296142578125,
+        574.5864868164062
+      ],
+      "bbox_yolo": [
+        0.6363810300827026,
+        0.5705361366271973,
+        0.25449714064598083,
+        0.654510498046875
+      ],
+      "bbox_width_px": 162.878173828125,
+      "bbox_height_px": 418.88671875
+    },
+    {
+      "detection_id": 1,
+      "class_name": "zebra",
+      "yolo_class_id": 3,
+      "confidence": 0.8655681014060974,
+      "bbox_xyxy": [
+        137.30963134765625,
+        203.4395751953125,
+        290.1298828125,
+        576.813720703125
+      ],
+      "bbox_yolo": [
+        0.3339371085166931,
+        0.6095728874206543,
+        0.2387816458940506,
+        0.5833970904350281
+      ],
+      "bbox_width_px": 152.82025146484375,
+      "bbox_height_px": 373.3741455078125
+    }
+  ]
+}

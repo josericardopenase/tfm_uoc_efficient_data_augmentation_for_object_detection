@@ -1,0 +1,53 @@
+{
+  "index": 4377,
+  "dataframe_iter_index": 4377,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/4377.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "bus",
+  "grounding_prompt": "bus",
+  "timestamp": "2026-05-22T11:31:14.957755",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "bus",
+      "yolo_class_id": 5,
+      "confidence": 0.9108217358589172,
+      "bbox_xyxy": [
+        74.46873474121094,
+        336.7002258300781,
+        329.18878173828125,
+        514.4075927734375
+      ],
+      "bbox_yolo": [
+        0.3153574466705322,
+        0.6649279594421387,
+        0.3980000615119934,
+        0.277667760848999
+      ],
+      "bbox_width_px": 254.7200469970703,
+      "bbox_height_px": 177.70736694335938
+    },
+    {
+      "detection_id": 1,
+      "class_name": "bus",
+      "yolo_class_id": 5,
+      "confidence": 0.8075705766677856,
+      "bbox_xyxy": [
+        355.86553955078125,
+        386.58941650390625,
+        440.596923828125,
+        465.48150634765625
+      ],
+      "bbox_yolo": [
+        0.6222363114356995,
+        0.6656804084777832,
+        0.1323927938938141,
+        0.12326888740062714
+      ],
+      "bbox_width_px": 84.73138427734375,
+      "bbox_height_px": 78.89208984375
+    }
+  ]
+}

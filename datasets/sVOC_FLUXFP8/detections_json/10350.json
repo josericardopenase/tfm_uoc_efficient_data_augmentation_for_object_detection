@@ -1,0 +1,73 @@
+{
+  "index": 10350,
+  "dataframe_iter_index": 10350,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/10350.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "horse",
+  "grounding_prompt": "horse",
+  "timestamp": "2026-05-22T13:48:23.605339",
+  "num_detections": 3,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "horse",
+      "yolo_class_id": 12,
+      "confidence": 0.7356110215187073,
+      "bbox_xyxy": [
+        82.65153503417969,
+        213.1578826904297,
+        308.87713623046875,
+        596.3378295898438
+      ],
+      "bbox_yolo": [
+        0.3058817982673645,
+        0.6324185132980347,
+        0.35347750782966614,
+        0.5987186431884766
+      ],
+      "bbox_width_px": 226.22560119628906,
+      "bbox_height_px": 383.179931640625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "horse",
+      "yolo_class_id": 12,
+      "confidence": 0.3893127143383026,
+      "bbox_xyxy": [
+        258.1763916015625,
+        211.25515747070312,
+        534.4880981445312,
+        600.207763671875
+      ],
+      "bbox_yolo": [
+        0.6192691326141357,
+        0.6339553594589233,
+        0.4317370355129242,
+        0.6077384352684021
+      ],
+      "bbox_width_px": 276.31170654296875,
+      "bbox_height_px": 388.9526062011719
+    },
+    {
+      "detection_id": 2,
+      "class_name": "horse",
+      "yolo_class_id": 12,
+      "confidence": 0.7436525821685791,
+      "bbox_xyxy": [
+        410.5686950683594,
+        207.4040985107422,
+        560.934814453125,
+        618.6189575195312
+      ],
+      "bbox_yolo": [
+        0.7589871287345886,
+        0.645330548286438,
+        0.2349470555782318,
+        0.6425231695175171
+      ],
+      "bbox_width_px": 150.36611938476562,
+      "bbox_height_px": 411.21484375
+    }
+  ]
+}

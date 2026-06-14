@@ -1,0 +1,53 @@
+{
+  "index": 3101,
+  "dataframe_iter_index": 3101,
+  "image_path": "./datasets/sHOMEOBJECTS_FLUXFP8/images/3101.jpg",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "television",
+  "grounding_prompt": "television",
+  "timestamp": "2026-05-15T23:39:35.107776",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "television",
+      "yolo_class_id": 6,
+      "confidence": 0.6154819130897522,
+      "bbox_xyxy": [
+        302.39849853515625,
+        207.7418212890625,
+        639.184814453125,
+        537.6207885742188
+      ],
+      "bbox_yolo": [
+        0.7356119751930237,
+        0.5823145508766174,
+        0.5262286067008972,
+        0.5154358744621277
+      ],
+      "bbox_width_px": 336.78631591796875,
+      "bbox_height_px": 329.87896728515625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "television",
+      "yolo_class_id": 6,
+      "confidence": 0.802582323551178,
+      "bbox_xyxy": [
+        6.7216033935546875,
+        245.07833862304688,
+        291.906005859375,
+        527.8458251953125
+      ],
+      "bbox_yolo": [
+        0.23330283164978027,
+        0.6038470268249512,
+        0.44560059905052185,
+        0.44182419776916504
+      ],
+      "bbox_width_px": 285.18438720703125,
+      "bbox_height_px": 282.7674865722656
+    }
+  ]
+}

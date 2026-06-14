@@ -1,0 +1,53 @@
+{
+  "index": 393,
+  "dataframe_iter_index": 393,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/393.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "tugboat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T19:27:44.341639",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "tugboat",
+      "yolo_class_id": 11,
+      "confidence": 0.8450765013694763,
+      "bbox_xyxy": [
+        77.30569458007812,
+        228.34072875976562,
+        278.1570129394531,
+        373.2631530761719
+      ],
+      "bbox_yolo": [
+        0.27770525217056274,
+        0.47000303864479065,
+        0.3138301968574524,
+        0.22644129395484924
+      ],
+      "bbox_width_px": 200.851318359375,
+      "bbox_height_px": 144.92242431640625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "tugboat",
+      "yolo_class_id": 11,
+      "confidence": 0.7899070978164673,
+      "bbox_xyxy": [
+        327.35772705078125,
+        242.01864624023438,
+        549.1796264648438,
+        374.2286071777344
+      ],
+      "bbox_yolo": [
+        0.6847947835922241,
+        0.4814431667327881,
+        0.34659671783447266,
+        0.2065780609846115
+      ],
+      "bbox_width_px": 221.8218994140625,
+      "bbox_height_px": 132.2099609375
+    }
+  ]
+}

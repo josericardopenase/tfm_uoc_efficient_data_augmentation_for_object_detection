@@ -1,0 +1,53 @@
+{
+  "index": 13789,
+  "dataframe_iter_index": 13789,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/13789.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "sofa",
+  "grounding_prompt": "sofa",
+  "timestamp": "2026-05-22T15:11:52.137221",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "sofa",
+      "yolo_class_id": 17,
+      "confidence": 0.9160420894622803,
+      "bbox_xyxy": [
+        90.95584869384766,
+        367.2620849609375,
+        302.74273681640625,
+        511.56494140625
+      ],
+      "bbox_yolo": [
+        0.3075770139694214,
+        0.6865836381912231,
+        0.33091703057289124,
+        0.22547321021556854
+      ],
+      "bbox_width_px": 211.78689575195312,
+      "bbox_height_px": 144.3028564453125
+    },
+    {
+      "detection_id": 1,
+      "class_name": "sofa",
+      "yolo_class_id": 17,
+      "confidence": 0.9163281917572021,
+      "bbox_xyxy": [
+        352.3919982910156,
+        346.5570068359375,
+        560.1717529296875,
+        455.560546875
+      ],
+      "bbox_yolo": [
+        0.7129403948783875,
+        0.626654326915741,
+        0.3246558606624603,
+        0.17031803727149963
+      ],
+      "bbox_width_px": 207.77975463867188,
+      "bbox_height_px": 109.0035400390625
+    }
+  ]
+}

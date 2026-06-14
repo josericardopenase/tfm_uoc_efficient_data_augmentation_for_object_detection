@@ -1,0 +1,53 @@
+{
+  "index": 5105,
+  "dataframe_iter_index": 5105,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/5105.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "sailboat",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T21:02:19.559624",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "sailboat",
+      "yolo_class_id": 8,
+      "confidence": 0.699083685874939,
+      "bbox_xyxy": [
+        55.12562561035156,
+        0.26165771484375,
+        319.86138916015625,
+        517.7951049804688
+      ],
+      "bbox_yolo": [
+        0.2929585874080658,
+        0.4047318398952484,
+        0.41364964842796326,
+        0.808646023273468
+      ],
+      "bbox_width_px": 264.73577880859375,
+      "bbox_height_px": 517.533447265625
+    },
+    {
+      "detection_id": 1,
+      "class_name": "sailboat",
+      "yolo_class_id": 8,
+      "confidence": 0.5683003067970276,
+      "bbox_xyxy": [
+        353.6308898925781,
+        0.1421966552734375,
+        499.1645812988281,
+        426.51641845703125
+      ],
+      "bbox_yolo": [
+        0.6662464737892151,
+        0.333327054977417,
+        0.2273963987827301,
+        0.6662096977233887
+      ],
+      "bbox_width_px": 145.53369140625,
+      "bbox_height_px": 426.37420654296875
+    }
+  ]
+}

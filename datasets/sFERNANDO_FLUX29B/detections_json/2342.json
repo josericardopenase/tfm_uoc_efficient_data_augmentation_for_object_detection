@@ -1,0 +1,73 @@
+{
+  "index": 2342,
+  "dataframe_iter_index": 2342,
+  "image_path": "./datasets/sFERNANDO_FLUX29B/images/2342.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "military_ship",
+  "grounding_prompt": "boat",
+  "timestamp": "2026-05-04T20:05:01.961934",
+  "num_detections": 3,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "military_ship",
+      "yolo_class_id": 5,
+      "confidence": 0.7316691875457764,
+      "bbox_xyxy": [
+        247.80474853515625,
+        201.02430725097656,
+        384.3648681640625,
+        417.34637451171875
+      ],
+      "bbox_yolo": [
+        0.49388250708580017,
+        0.48310208320617676,
+        0.21337518095970154,
+        0.3380032181739807
+      ],
+      "bbox_width_px": 136.56011962890625,
+      "bbox_height_px": 216.3220672607422
+    },
+    {
+      "detection_id": 1,
+      "class_name": "military_ship",
+      "yolo_class_id": 5,
+      "confidence": 0.7382670640945435,
+      "bbox_xyxy": [
+        430.0286865234375,
+        206.77938842773438,
+        598.384521484375,
+        413.3505554199219
+      ],
+      "bbox_yolo": [
+        0.8034478425979614,
+        0.4844765067100525,
+        0.2630559802055359,
+        0.322767436504364
+      ],
+      "bbox_width_px": 168.3558349609375,
+      "bbox_height_px": 206.5711669921875
+    },
+    {
+      "detection_id": 2,
+      "class_name": "military_ship",
+      "yolo_class_id": 5,
+      "confidence": 0.7569149136543274,
+      "bbox_xyxy": [
+        16.59056854248047,
+        214.62103271484375,
+        224.93524169921875,
+        422.06658935546875
+      ],
+      "bbox_yolo": [
+        0.18869204819202423,
+        0.49741220474243164,
+        0.3255385458469391,
+        0.3241336941719055
+      ],
+      "bbox_width_px": 208.34466552734375,
+      "bbox_height_px": 207.445556640625
+    }
+  ]
+}

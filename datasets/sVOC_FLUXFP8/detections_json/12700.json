@@ -1,0 +1,53 @@
+{
+  "index": 12700,
+  "dataframe_iter_index": 12700,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/12700.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "pottedplant",
+  "grounding_prompt": "pottedplant",
+  "timestamp": "2026-05-22T14:45:38.624112",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "pottedplant",
+      "yolo_class_id": 15,
+      "confidence": 0.6796594262123108,
+      "bbox_xyxy": [
+        125.30897521972656,
+        138.5612335205078,
+        493.1165771484375,
+        622.3640747070312
+      ],
+      "bbox_yolo": [
+        0.48314493894577026,
+        0.5944728851318359,
+        0.5746994018554688,
+        0.7559419870376587
+      ],
+      "bbox_width_px": 367.8076171875,
+      "bbox_height_px": 483.8028564453125
+    },
+    {
+      "detection_id": 1,
+      "class_name": "pottedplant",
+      "yolo_class_id": 15,
+      "confidence": 0.626078724861145,
+      "bbox_xyxy": [
+        0.11538314819335938,
+        232.3461151123047,
+        77.47016906738281,
+        366.49273681640625
+      ],
+      "bbox_yolo": [
+        0.060613714158535004,
+        0.46784287691116333,
+        0.12086685001850128,
+        0.20960409939289093
+      ],
+      "bbox_width_px": 77.35478210449219,
+      "bbox_height_px": 134.14662170410156
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "index": 3685,
+  "dataframe_iter_index": 3685,
+  "image_path": "./datasets/sVOC_FLUXFP8/images/3685.png",
+  "image_width": 640,
+  "image_height": 640,
+  "ground_truth_class": "bottle",
+  "grounding_prompt": "bottle",
+  "timestamp": "2026-05-22T11:18:00.406411",
+  "num_detections": 2,
+  "detections": [
+    {
+      "detection_id": 0,
+      "class_name": "bottle",
+      "yolo_class_id": 4,
+      "confidence": 0.8357506990432739,
+      "bbox_xyxy": [
+        159.00802612304688,
+        104.7135009765625,
+        316.6960754394531,
+        617.208984375
+      ],
+      "bbox_yolo": [
+        0.3716438412666321,
+        0.5640019178390503,
+        0.2463875710964203,
+        0.8007742166519165
+      ],
+      "bbox_width_px": 157.68804931640625,
+      "bbox_height_px": 512.4954833984375
+    },
+    {
+      "detection_id": 1,
+      "class_name": "bottle",
+      "yolo_class_id": 4,
+      "confidence": 0.8233747482299805,
+      "bbox_xyxy": [
+        338.6224670410156,
+        81.536865234375,
+        494.8989562988281,
+        629.4452514648438
+      ],
+      "bbox_yolo": [
+        0.6511886119842529,
+        0.5554547905921936,
+        0.2441820204257965,
+        0.8561068773269653
+      ],
+      "bbox_width_px": 156.2764892578125,
+      "bbox_height_px": 547.9083862304688
+    }
+  ]
+}
