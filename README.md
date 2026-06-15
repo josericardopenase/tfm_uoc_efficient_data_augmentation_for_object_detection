@@ -41,23 +41,21 @@ The project is structured into modular Jupyter Notebooks representing the differ
 This project uses modern Python packaging with [`uv`](https://github.com/astral-sh/uv).
 
 1. **Clone the repository:**
-   ```bash
+```bash
    git clone [https://github.com/josericardopenase/tfm_uoc_efficient_data_augmentation_for_object_detection.git](https://github.com/josericardopenase/tfm_uoc_efficient_data_augmentation_for_object_detection.git)
    cd tfm_uoc_efficient_data_augmentation_for_object_detection
-
 ```
 
 2. **Install dependencies:**
+
 Using `uv` and the provided `pyproject.toml` / `uv.lock` files, you can quickly set up the environment:
+
 ```bash
 uv sync
 
 ```
 
-
-*(Alternatively, you can use `pip install .` or install from standard requirements if generated).*
-
-## 📊 Key Results
+## Key Results
 
 * **Reduced Manual Effort:** Successfully generated and pseudo-labeled datasets across multiple domains (PASCAL VOC, KITTI, African Wildlife, and QAISC Maritime) natively.
 * **Data Balancing:** Transformed long-tail data distributions into balanced distributions via targeted synthetic generation, substantially improving minority class representation.
